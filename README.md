@@ -1,6 +1,9 @@
 ## WP Facebook Open Graph protocol - WordPress Plugin
 
-## There is a change back to fix my issue [Genesis SEO meta description](http://wordpress.org/support/topic/genesis-seo-meta-description)
+##Important
+
+It fixes my issue. Please do not use the fix if the official version works for you.
+There is a change back to fix my issue [Genesis SEO meta description](http://wordpress.org/support/topic/genesis-seo-meta-description)
 
 
 Use the original dev version unless you really need the fix :
