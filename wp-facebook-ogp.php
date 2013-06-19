@@ -208,8 +208,8 @@ class WPFBOGP {
 		if ( is_home() || is_front_page() ) {
 			$url = get_bloginfo( 'url' );
 		} else {
-			$url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
-			//$url = 'http' . ( is_ssl() ? 's' : '' ) . "://".$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+			//$url = add_query_arg( $wp->query_string, '', home_url( $wp->request ) );
+			$url = 'http' . ( is_ssl() ? 's' : '' ) . "://".$_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 		}
 		echo '<meta property="og:url" content="' . esc_url( apply_filters( 'wpfbogp_url', $url ) ) . '" />' . "\n";
 
